@@ -26,9 +26,6 @@ type Props = {
   onPressAdd?: () => void
 }
 
-/* =======================
-   Constants
-======================= */
 const { width } = Dimensions.get('window')
 const CARD_WIDTH = Math.round(Math.min(150, width * 0.64))
 
